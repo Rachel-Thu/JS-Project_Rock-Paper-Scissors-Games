@@ -1,5 +1,5 @@
-
 # ✊✋✌️ Rock Paper Scissors Game
+
 A fun and interactive Rock Paper Scissors game built using HTML, CSS, and JavaScript. This mini-game allows users to pick their move, play against the computer, and receive instant results with styled feedback.
 
 ## 🌐 Live Demo
