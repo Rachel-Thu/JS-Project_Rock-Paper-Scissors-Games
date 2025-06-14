@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <h1 class="header">Rock Paper Scissors Game</h1>
+
+    <!-- Pick Button -->
+    <div class="btnDiv">
+        <button class="rock" onclick="play('rock')">
+            <i class="fa-regular fa-hand-back-fist"></i>
+            <p>ROCK</p>
+        </button>
+        <button class="paper" onclick="play('paper')">
+            <i class="fa-regular fa-hand"></i>
+            <p>PAPER</p>
+        </button>
+        <button class="scissors" onclick="play('scissors')">
+            <i class="fa-regular fa-hand-scissors"></i>
+            <p>SCISSORS</p>
+        </button>
+    </div>
+
+    <!-- Output Chosen -->
+    <div class="outputDiv">
+        <h4 class="human"></h4>
+        <h4 class="computer"></h4>
+    </div>
+
+    <!-- Output Result -->
+    <div class="result">
+        <button class="won hidden">You did it!</button>
+        <button class="lose hidden">Try again</button>
+        <button class="draw hidden">Neck & neck!</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
